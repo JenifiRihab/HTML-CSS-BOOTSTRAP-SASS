@@ -1,0 +1,42 @@
+
+ .color-container3{
+    background-color: $color;
+    height: 200px;
+    position: $position;
+    bottom: 30px;
+    
+  }
+
+.color-containers2 {
+    width: auto;
+    height: 230px;
+    position: $position;
+    padding: $espacement;
+    top: 250px;
+    background-color:$color3; 
+  }
+
+  .text-center{
+    text-align: center;
+    
+  }
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.lien,h6{
+    color: white;
+}
+
+.cnda{
+    src: url(../img/cnda-logo.png);
+    height:100px;
+    width: auto;  
+    background-color: white;
+    
+    }

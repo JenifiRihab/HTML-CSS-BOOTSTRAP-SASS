@@ -1,0 +1,24 @@
+.logo{
+    src: url(../img/spa33-logo.png);
+    height:100px;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+   bottom: 10px;
+}
+
+.container-fluid{
+    height: 100px;
+}
+
+.navbar-collapse{
+    list-style-type: none;
+    display: flex ;
+    justify-content: flex-end;
+}
+
+.navbar-collapse li a {
+    color:black;
+    text-decoration: none;
+}
+

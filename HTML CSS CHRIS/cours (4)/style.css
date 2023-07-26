@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "roboto regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "roboton regular";
+}
+
+.box.square{
+    width: 100PX;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top:50px ;
+    right: ;
+    bottom: ;
+    left: 50px;
+    z-index: 1;
+}
+
+.box-circle{
+    width:100px ;
+    height:100px ;
+    background-color: midnightblue;
+    border-radius: 50;
+}
+
+.abs-square{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+
+    position: relative;
+}
+
+.inner-square{
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange ;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+}
+
+
+
+.abs-square2{
+    width: 410px;
+    height: 410px;
+    border: 1px solid black;
+
+    position: relative;
+}
+
+.inner-square2{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black ;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+}
+
+.inner-square3{
+    width: 195px;
+    height: 195px;
+    border: 1px solid black ;
+
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+}
+
+.circle{
+    width:20px ;
+    height:20px ;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+   
+}
+
+.abs-square1{
+    width:400px ;
+    height:400px ;
+    background-color: rgb(35, 166, 107);
+    border-radius: 50;
+}
+
+
+
+
+.rectangle{
+    /*VIEWPORT WIDTH*/
+    width: 50vw;
+    /*VIEWPORT HEIGHT*/
+    height: 50vh;
+    background-color: blue;
+}
+@media screen and (max-width:900px) {
+    .rectangle{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:600px){
+    
+}
+
+
+

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "roboto regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "roboton regular";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;   /*ou column*/
+     /*AXE PRINCIPAL*/
+   
+    justify-content: center;  /*ou space-around*/
+    /*AXES SECONDAIRE*/
+   
+    align-items: center;
+}
+
+
+.item{
+    background-color: green;
+    border: 1px solid white;
+    padding: 10px;
+    width: 10%;
+}
+
+
+
+
+@font-face {
+    font-family:"ROBOTO Regular" ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    font-family: "Roboto Regular";
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+}
+
+.item{
+    padding:0;
+    width: 10%;
+   
+}
+
+
+/*CONTENU*/
+#personnages {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    background-color: white;
+
+}
+
+img{
+    src: url(../img/NW-bug.svg);
+    height: 140px;
+    width: 170px;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex ;
+    justify-content: flex-end;
+    width: 63%;
+}
+
+.navbar li:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+   
+}
+
+.test {
+   height: 350px;
+    background-image: url(../img/new-world-amazon-jeu.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+img{
+    background-image: url(../img/NW-bug.svg);
+    margin: 3%;
+    background-position: center
+   
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+.par1{
+    text-align: center;
+    border-right: 200px solid white;
+    border-left:200px solid white; ;
+}
+
+
+.btn {
+    background-color: orange;
+    color:white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+.abs-square1{
+    width: 300px;
+    height: 400px;
+    border: 1px solid ;
+    position: relative;
+    background-color: rgb(39, 39, 39);
+    margin: 2%;
+}
+
+
+.box-square1{
+    width: 299px;
+    height: 200px;
+    background-image: url(../img/Launch-Details-580.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid ;
+    overflow: hidden;
+}
+
+h4 {
+    color: white;
+}
+ .par {
+    color: white;
+ }

@@ -1,0 +1,179 @@
+p {
+    color: rgb(39, 5, 5);
+}
+
+.par1 {
+    color: blue;
+}
+
+.par2 {
+    color: blueviolet;
+}
+
+#titre-unique {
+    color: orange;
+}
+
+p {
+    color: rgb(91, 12, 12);
+}
+
+(selectionne tous types des balises (tous p et h1)) ul li a {}
+
+(selectionner tous les a dans li et ul) body>ul {}
+
+
+@font-face {
+    font-family: "roboto regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "roboton regular";
+}
+
+
+h1 {
+    font-family: ;
+}
+
+
+@font-face {
+    font-family: "roboto bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: "roboto regular";
+    font-size: 16px;
+    1em=100%=20px (pixel) font-weight: 400;
+    1rem=16px font style: italic;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "roboto bold";
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 10px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+
+
+    color: rgb(150, 150, 150);
+    couleurs color: rgba(150, 150, 150) transparence
+}
+
+
+@font-face {
+    font-family: "great vibes";
+    src: url(../fonts/Great_Vibes/);
+}
+
+body {
+    font-family: "great vibes";
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "great vibes";
+}
+
+/* selecteur {
+    propriete valeur;
+    propriete valeur;
+    propriete valeur;
+} */
+
+.box1 {
+    background-color: rgb(13, 87, 28);
+    width: 50;
+    height: auto;
+    padding: 50px;
+    /* exemple  padding: 50px 25px 10px 5px;
+    droite 25
+    gauche 10
+    bas 5 */
+}
+
+.inline {
+    background-color: brown;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgb(82, 235, 235);
+    overflow: hidden;
+
+}
+
+.block {
+    border: 1px solid red;
+}
+
+
+.btn {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-block;
+
+}
+
+
+.btn:hover {
+    background-color: white;
+    color: orange;
+}
+
+
+ul>li:first-child {
+    text-decoration: underline;
+}
+
+ul>li:nth-child(3) {
+    background-color: green;
+}
+
+ul>li:last-child ul {
+    background-color: crimson;
+}
+
+ul>li:last-child>ul>li:last-child {
+    color: blue;
+}
+
+
+.
+
+.box-circle{
+    width:100px ;
+    height:100px ;
+    background-color: midnightblue;
+    border-radius: 50;
+}
+
+.abs-square{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.inner-square{
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange ;
+
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}

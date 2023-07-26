@@ -1,0 +1,53 @@
+
+.nav-color1{
+    background-color: $couleur-principale5 ;
+ 
+} 
+
+.logo2{
+    src: url(../img/Logo-white.png);
+    width:150px ;
+    height:auto ; 
+}
+
+
+.navbar-collapse1{
+    list-style-type: none;
+    justify-content: right; 
+  
+}
+
+.navbar-collapse1 li a {
+    color:white;
+    text-decoration: none;
+}
+
+.text-center{
+    color: white;
+}
+ hr{
+    color: white;
+ }
+
+
+ 
+
+
+ .color-container3{
+    background-color:$couleur-principale;
+    height: 200px;
+    position: $position;
+    bottom: 150px;
+color: white;
+     border-radius: $border-radius;
+  }
+
+.color-containers2 {
+    width: auto;
+    height: 400px;
+    position: $position;
+    padding: $espacement;
+    top: 250px;
+    background-color:$couleur-principale5; 
+    color: white;
+  }

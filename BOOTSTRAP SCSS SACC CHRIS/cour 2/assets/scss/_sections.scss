@@ -1,0 +1,138 @@
+.color-container {
+    width: $width;
+    height: 400px;
+    position: $position;
+    margin: $margin;
+    background-color: $couleur-principale;
+    padding: $espacement;
+    border-radius: $border-radius;
+    box-shadow:$box-shadow;
+    color: $text-color;
+}
+
+.box-travel{
+    background-size: $background-size;
+    background-position: $background-position;
+    overflow: $overflow;
+    img {
+        width: 200px;
+    }
+}
+    
+.btn {
+    background-color: $couleur-btn;
+    color:$color;
+    border-radius: $border;
+    padding: 10px 10px;
+    display: $display;
+    margin-bottom: 10px;
+    text-decoration:$text-decoration;
+    transition:$transition;
+    text-align: $align;
+    margin:$ma;
+  
+}
+
+.btn:hover {
+    background-color:black;
+    color: white;
+}  
+
+
+
+.abs-services{
+    background-size: $background-size;
+    background-position: $background-position;
+    overflow: $overflow;
+    width: $width;
+    height: 400px;
+    position: $position;
+    padding: $espacement;
+    border-radius: $border-radius;
+    box-shadow:$box-shadow;
+  background-image: $background-image1;
+  margin:$margin2;
+}
+
+.abs-services2{
+    background-size: $background-size;
+    background-position: $background-position;
+    overflow: $overflow;
+    width:$width;
+    height: 200px;
+    position: $position;
+    padding: $espacement;
+    border-radius: $border-radius;
+    box-shadow:$box-shadow;
+    background-image: $background-image2;
+    margin: $margin2;
+}
+
+.abs-services3{
+    background-size: $background-size;
+    background-position: $background-position;
+    overflow: $overflow;
+    width: $width;
+    height: 200px;
+    position: $position;
+    padding: $espacement;
+    border-radius: $border-radius;
+    box-shadow:$box-shadow;
+    background-image: $background-image3;
+    margin: $margin2;
+}
+
+h4,a{
+    color:$text-color ;
+    text-decoration: none;
+    color: $text-color;
+    position: $position;
+    top: 50%;
+}
+
+.image-features {
+    background-size: $background-size;
+    background-position: $background-position;
+    overflow: $overflow;
+    width: $width;
+    height: 500px;
+    position: $position;
+    padding: $espacement;
+    border-radius: $border-radius;
+    background-image: $background-image4;
+
+}
+.images-features{
+    width: 40px;
+  
+}
+
+h3{
+    color: black;
+    margin: 10% 70%;
+    position: $position;
+    top: 50px;
+}
+
+.color-containers {
+    width: auto;
+    height: 200px;
+    position: $position;
+    background-color: $couleur-principale;
+    padding: $espacement;
+    border-radius: $border-radius;
+    color: $text-color;
+    top: -70px;
+}
+
+.btn2 {
+    background-color: $couleur-btn;
+    color:$color;
+    border-radius: $border;
+    padding: 10px 10px;
+    display: $display;
+    margin-bottom: 10px;
+    text-decoration:$text-decoration;
+    transition:$transition;
+ 
+}

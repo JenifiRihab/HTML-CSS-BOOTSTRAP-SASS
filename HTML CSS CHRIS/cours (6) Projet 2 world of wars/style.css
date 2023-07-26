@@ -1,0 +1,147 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+main {
+    display: flex;
+}
+
+nav {
+    background-color: rgb(112, 110, 90);
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+.abs-square1{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px rgb(66, 42, 54);
+    position: relative;
+}
+
+
+
+
+.square1{
+    width: 395px;
+    height: 200px;
+    background-image: url(image/orc_hunter.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    box-shadow: 3px 3px 10px rgb(66, 42, 54);
+    overflow: hidden;
+}
+
+h1{
+    color: black;
+}
+
+
+
+.btn1{
+    background-color: rgb(54, 75, 45);
+    color:white;
+    border:1px solid white ;
+    padding: 7px 10px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+
+.abs-square2{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px rgb(66, 42, 54);
+    position: relative;
+}
+
+
+
+
+.square2{
+    width: 395px;
+    height: 200px;
+    background-image: url(image/pandaren_moine.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    box-shadow: 3px 3px 10px rgb(66, 42, 54);
+    overflow: hidden;
+}
+
+h1{
+    color: black;
+}
+
+
+
+.btn2{
+    background-color: rgb(57, 247, 193);
+    color:white;
+    border:1px solid white ;
+    padding: 7px 10px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.abs-square3{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px rgb(66, 42, 54);
+    position: relative;
+}
+
+
+
+
+.square3{
+    width: 395px;
+    height: 200px;
+    background-image: url(image/humain_paladin.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    box-shadow: 3px 3px 10px rgb(66, 42, 54);
+    overflow: hidden;
+}
+
+h1{
+    color: black;
+}
+
+
+
+.btn3{
+    background-color: rgb(148, 50, 140);
+    color:white;
+    border:1px solid white ;
+    padding: 7px 10px;
+    display: inline-block;
+    text-align: center;
+    
+}
+

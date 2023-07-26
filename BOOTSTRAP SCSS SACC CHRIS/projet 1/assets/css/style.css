@@ -1,0 +1,168 @@
+/*ETAPE1*/
+
+.logo{
+    width:250px ;
+    height:auto ;
+    margin: 1% 5%;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-color{
+    background-color: rgb(12, 50, 62);
+
+
+}
+
+
+.navbar-collapse{
+    list-style-type: none;
+    justify-content: center; 
+ margin: 0% 40%;
+}
+
+.navbar-collapse  li:not(:last-child) {
+    border-right: 2px solid white;
+    margin: 0% 3%;
+}
+
+.navbar-collapse li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 50px;
+
+}
+
+.navbar-collapse li :hover{
+    color: yellow;
+}
+
+
+/*ETAPE2*/
+
+/*pemiere section*/
+
+.deuxieme-titre{
+    color: yellow;
+}
+
+.premiere-titre{
+    text-align: left;
+    position: relative;
+    top: -200px;
+    left: 10px;
+}
+
+/*deuxieme section*/
+
+#entreprise-renovation{
+    text-align: center;
+   
+    position: relative;
+    top: 20px;
+ 
+     }
+
+     #renovation{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image-renovation{
+        width: 80px;
+        height:auto ;
+        margin: 10%;
+        }
+                        
+    .btn {
+        background-color: rgb(10, 32, 42);
+        color:white;
+        border-radius: 5px;
+        padding: 10px 10px;
+        display: inline-block;
+        margin-bottom: 10px;
+        text-decoration: none;
+        transition:all 0.2s ease-in;
+        text-align: center;
+        margin:5%;
+    }
+    
+    .btn:hover {
+        background-color:white;
+        color: rgb(10, 32, 42);
+    }                   
+    
+/*troisieme section*/
+
+
+.image-realisation{
+    width:350px ;
+}
+
+
+
+.btn2 {
+    background-color: rgb(10, 32, 42);
+    color:white;
+    border-radius: 5px;
+    padding: 15px 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition:all 0.2s ease-in;
+    text-align: center;
+}
+
+.btn2:hover {
+    background-color:white;
+    color: rgb(10, 32, 42);
+}   
+
+
+/*quatrieme section*/
+
+#COORDONNÉES{
+    text-align: center;
+    margin: 5%;
+}
+.image-coordonnees{
+    width: 60px;
+    height:auto ;
+    margin:10% ;
+    }
+
+/*footer*/
+
+#footer {
+    background-color: rgb(15, 54, 75);   
+}
+
+.logo2{
+src: url(../img/LOGO.png);
+height:100px;
+width: auto;  
+}
+
+.footer-botter{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: ;
+}
+
+.footer{
+    color: white;
+}
+    
+.col-6{
+    position: relative;
+    top:50px;
+
+}
+
+.text-right{
+    border-left: 1px solid white;
+    position: relative;
+    top: 30px;
+}

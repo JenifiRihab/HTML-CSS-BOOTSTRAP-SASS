@@ -1,0 +1,160 @@
+.logo {
+  src: url(../img/spa33-logo.png);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50px;
+  bottom: 10px;
+}
+
+.container-fluid {
+  height: 100px;
+}
+
+.navbar-collapse {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-collapse li a {
+  color: black;
+  text-decoration: none;
+}
+
+.abs-spa1 {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: auto;
+  height: 200px;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url(../img/chiens-adoption-spa.jpg);
+  margin: 1%;
+}
+
+.abs-spa2 {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: auto;
+  height: 200px;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url(../img/chats-adoption-spa.jpg);
+  margin: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgb(9, 10, 65);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-bottom: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  text-align: center;
+  margin: 25%;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(9, 10, 65);
+}
+
+h4 {
+  text-align: center;
+  color: rgb(8, 4, 36);
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.abs-information {
+  position: relative;
+  top: 50px;
+}
+
+a {
+  color: rgb(8, 4, 36);
+}
+
+.color-containers {
+  width: auto;
+  height: 350px;
+  position: relative;
+  background-color: rgb(195, 211, 231);
+  padding: 10px;
+  top: 100px;
+}
+
+.image-chien {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  top: 40px;
+}
+
+.nom {
+  text-decoration: none;
+}
+
+.H6 {
+  color: black;
+  background-color: white;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+}
+
+.color-container3 {
+  background-color: rgb(9, 10, 65);
+  height: 200px;
+  position: relative;
+  bottom: 30px;
+}
+
+.color-containers2 {
+  width: auto;
+  height: 230px;
+  position: relative;
+  padding: 10px;
+  top: 250px;
+  background-color: rgb(195, 211, 231);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.lien, h6 {
+  color: white;
+}
+
+.cnda {
+  src: url(../img/cnda-logo.png);
+  height: 100px;
+  width: auto;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

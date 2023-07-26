@@ -1,0 +1,191 @@
+@font-face {
+    font-family:"ROBOTO Regular" ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto Regular";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+}
+
+.item{
+    padding:0;
+    width: 10%;
+}
+
+#explorer {
+    text-align: center;
+}
+
+/*CONTENU*/
+#personnages {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    background-color: white;
+
+}
+
+img{
+    src: url(../img/NW-bug.svg);
+    height: 140px;
+    width: 170px;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex ;
+    justify-content: flex-end;
+    width: 63%;
+}
+
+.navbar li:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+   
+}
+
+#test {
+   height: 350px;
+    background-image: url(../img/new-world-amazon-jeu.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+img{
+    background-image: url(../img/NW-bug.svg);
+    margin: 3%;
+    background-position: center
+   
+    
+}
+
+
+.par1{
+    text-align: center;
+    border-right: 200px solid white;
+    border-left:200px solid white; ;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+.btn {
+    background-color: orange;
+    color:white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+.abs-square1{
+    width: 300px;
+    height: 400px;
+  
+    position: relative;
+    background-color: rgb(39, 39, 39);
+    margin: 2%;
+}
+
+
+.box-square1{
+    width: 299px;
+    height: 200px;
+    background-image: url(../img/Launch-Details-580.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid ;
+    overflow: hidden;
+}
+
+h4 {
+    color: white;
+}
+ .par {
+    color: white;
+ }
+
+
+
+ .rihab {
+   margin: 5;
+    background-color: black;
+    display: flex;
+   
+}
+
+ .navbar1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex ;
+    justify-content: flex-end;
+    width: 85%;
+}
+
+.navbar1 li:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+.navbar1 li a {
+    color:white;
+    text-decoration: none;
+    padding: 0 10px;
+   
+}
+
+
+.img1{
+    src: url(../img/NW-bug.svg);
+    height:50px;
+    width: 50px;
+}
+
+
+h3{
+    background-color: white;
+    display: flex;
+    margin: 0%;
+}
+
+@media screen and (max-width: 500px) {
+   
+    .container {
+      margin: 1em 2em;
+    }
+   
+    .main-menu{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        height: inherit;
+        width: 100%;
+    }
+
+  }

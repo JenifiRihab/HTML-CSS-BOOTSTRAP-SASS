@@ -1,0 +1,102 @@
+.abs-spa1{
+    background-size: $background-size;
+    background-position: $background-position;
+    overflow: $overflow;
+    width: $width;
+    height: 200px;
+    position: $position;
+    padding: $espacement;
+    border-radius: $border-radius;
+    background-image: $background-image1;
+    margin:$margin2;
+}
+
+.abs-spa2{
+    background-size: $background-size;
+    background-position: $background-position;
+    overflow: $overflow;
+    width: $width;
+    height: 200px;
+    position: $position;
+    padding: $espacement;
+    border-radius: $border-radius;
+    background-image: $background-image2;
+    margin:$margin2;
+}
+
+a{
+    text-decoration: $text-decoration;
+}
+
+.btn {
+  background-color: $color;
+  color:$couleur-btn;
+  border-radius: $border;
+  padding: 10px 10px;
+  display: $display;
+  margin-bottom: 50px;
+  text-decoration:$text-decoration;
+  transition:$transition;
+  text-align: $align;
+  margin:$ma;
+
+}
+
+.btn:hover {
+  background-color:$couleur-btn;
+  color: $color;
+}  
+
+h4{
+  text-align: $align;
+  color: $color2;
+}
+
+.image{
+width: 100px;
+height: 100px;
+}
+
+.abs-information{
+  position: $position;
+  top: 50px;
+}
+
+a{
+  color: $color2;
+}
+
+
+.color-containers {
+  width: auto;
+  height: 350px;
+  position: $position;
+  background-color: $color3;
+  padding: $espacement;
+
+  top: 100px;
+}
+
+.image-chien{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  position: $position;
+  top: 40px;
+
+}
+
+.nom{
+  text-decoration: $text-decoration;
+}
+
+
+.H6{
+  color: black;
+  background-color: white;
+ 
+  position: $position;
+  bottom: 10px;
+  text-align: center;
+}
+

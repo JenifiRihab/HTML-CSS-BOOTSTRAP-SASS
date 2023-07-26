@@ -1,0 +1,201 @@
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.nav-color {
+  background-color: white;
+}
+
+.navbar-collapse {
+  list-style-type: none;
+  justify-content: right;
+}
+
+.navbar-collapse li a {
+  color: black;
+  text-decoration: none;
+}
+
+.color-container {
+  width: auto;
+  height: 400px;
+  position: relative;
+  margin: 2%;
+  background-color: rgb(253, 123, 106);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(27, 14, 20);
+  color: rgb(255, 255, 255);
+}
+
+.box-travel {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.box-travel img {
+  width: 200px;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  text-align: center;
+  margin: 5%;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.abs-services {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: auto;
+  height: 400px;
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(27, 14, 20);
+  background-image: url(../img/homme-assis-batiment.jpg);
+  margin: 1%;
+}
+
+.abs-services2 {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: auto;
+  height: 200px;
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(27, 14, 20);
+  background-image: url(../img/passport.jpg);
+  margin: 1%;
+}
+
+.abs-services3 {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: auto;
+  height: 200px;
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(27, 14, 20);
+  background-image: url(../img/montgolfiere.jpg);
+  margin: 1%;
+}
+
+h4, a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 50%;
+}
+
+.image-features {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: auto;
+  height: 500px;
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  background-image: url(../img/wave.svg);
+}
+
+.images-features {
+  width: 40px;
+}
+
+h3 {
+  color: black;
+  margin: 10% 70%;
+  position: relative;
+  top: 50px;
+}
+
+.color-containers {
+  width: auto;
+  height: 200px;
+  position: relative;
+  background-color: rgb(253, 123, 106);
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  top: -70px;
+}
+
+.btn2 {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+
+.nav-color1 {
+  background-color: rgb(28, 28, 28);
+}
+
+.logo2 {
+  src: url(../img/Logo-white.png);
+  width: 150px;
+  height: auto;
+}
+
+.navbar-collapse1 {
+  list-style-type: none;
+  justify-content: right;
+}
+
+.navbar-collapse1 li a {
+  color: white;
+  text-decoration: none;
+}
+
+.text-center {
+  color: white;
+}
+
+hr {
+  color: white;
+}
+
+.color-container3 {
+  background-color: rgb(253, 123, 106);
+  height: 200px;
+  position: relative;
+  bottom: 150px;
+  color: white;
+  border-radius: 15px;
+}
+
+.color-containers2 {
+  width: auto;
+  height: 400px;
+  position: relative;
+  padding: 10px;
+  top: 250px;
+  background-color: rgb(28, 28, 28);
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
